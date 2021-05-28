@@ -62,11 +62,17 @@ section {
 background-color : rgb(255, 221, 153, 0.6);
 border : rgb(255, 179, 26) solid 6px;
 box-shadow : 0 0 40px rgb(0, 0, 0, 0.4);
-margin : -20% 2em 2em;
+margin : 2em;
+transform: translateY(-19em);
 border-radius : 0.8em;
 width : 25%;
 min-width : 25em;
 padding-bottom:1em;
+}
+@media screen and (max-width: 950px) {
+  section{
+    transform: translateY(-9.5em);
+  }
 }
 
 section#allgemein {
